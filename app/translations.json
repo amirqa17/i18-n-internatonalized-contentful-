@@ -1,0 +1,9 @@
+{
+    "home": {
+      "title": "Dynamic Contentful Blog with full i18n Internatinalization Integration",
+      "description": "This project uses Contentful for Blog, and i18n to switch between languages and conditionally load relative blog post's fields, so that blog feed is translated as well.",
+      "subcategories": {
+        "slugbutton": "Read more..."
+      }
+    }
+  }
