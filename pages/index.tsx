@@ -78,9 +78,9 @@ const HomePage = () => {
                   className="w-full object-cover h-32 sm:h-48 md:h-64"
                 />
                 <div className="p-4 md:p-6">
-                  <p className="text-blue-500 font-semibold text-xs mb-1 leading-none">
-                    {t("home.subcategories.news")}
-                  </p>
+                  <Link href={`/${post.fields.slug}`} className="text-blue-500 font-semibold text-xs mb-1 leading-none">
+                    {t("home.subcategories.slugbutton")}
+                  </Link>
                   <h3 className="font-semibold mb-2 text-xl leading-tight sm:leading-normal">
                     {i18n.language === "ru" ? post.fields.titleRu : post.fields.titleEn}
                   </h3>
